@@ -1,6 +1,8 @@
-
-<section class="todoapp">
-  <app-todo-header />
-  <app-todo-list />
-  <app-todo-footer />
-</section>
+<p class="big">todo-blast</p>
+<form class="form-inline mr-auto" style="margin-top: 10px" *ngIf="userName !== null">
+  <div class="form-group" style="margin-right: 20px">
+    <input type="text" class="form-control" placeholder="{{userName}}" disabled >
+  </div>
+  <button type="submit" class="css-button-3d--grey" (click)="signOut()">Log Out</button>
+</form>
+<router-outlet></router-outlet>

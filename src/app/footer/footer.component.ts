@@ -26,7 +26,7 @@ export class FooterComponent {
   }
 
   get filter(): string {
-    return this.location.path().split('/')[1] || 'all';
+    return this.location.path().split('/')[2] || 'all';
   }
 
   clearCompleted() {

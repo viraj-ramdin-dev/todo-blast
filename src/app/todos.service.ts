@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { SupabaseClient, createClient } from '@supabase/supabase-js';
-import { initSupabase } from './utils/initSupabase';
+import { initSupabase} from './utils/initSupabase';
 
 
 export interface Todo {

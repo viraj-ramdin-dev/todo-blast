@@ -15,7 +15,7 @@ export class TodoListComponent {
   private todosService = inject(TodosService);
 
   get todos(): Todo[] {
-    const filter = this.location.path().split('/')[1] || 'all';
+    const filter = this.location.path().split('/')[2] || 'all';
     return this.todosService.getItems(filter);
   }
 

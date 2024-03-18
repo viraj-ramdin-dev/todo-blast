@@ -6,13 +6,13 @@
     </span>
     <ul class="filters">
       <li>
-        <a routerLink="/" [class.selected]="filter === 'all'">All</a>
+        <a routerLink="/todo" [class.selected]="filter === 'all'">All</a>
       </li>
       <li>
-        <a routerLink="/active" [class.selected]="filter === 'active'">Active</a>
+        <a routerLink="/todo/active" [class.selected]="filter === 'active'">Active</a>
       </li>
       <li>
-        <a routerLink="/completed" [class.selected]="filter === 'completed'">Completed</a>
+        <a routerLink="/todo/completed" [class.selected]="filter === 'completed'">Completed</a>
       </li>
     </ul>
     @if (completedTodos.length > 0) {

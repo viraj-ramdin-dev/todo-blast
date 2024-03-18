@@ -1,0 +1,33 @@
+.css-button-3d--sky {
+    padding: 1rem 2rem; /* Increase padding for bigger size */
+    font-size: 1.2rem;
+    min-width: 24rem;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+  }
+  .css-button-3d--sky:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+  }
+  .css-button-3d--sky:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+  }
+
+  .button-wrapper {
+    /* Adjust margin or padding for spacing around the button */
+    
+    margin: 6rem;
+    margin-top: 14rem; /* Example: Add some margin for spacing */
+  }

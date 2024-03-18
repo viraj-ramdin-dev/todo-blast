@@ -1,0 +1,36 @@
+.css-button-3d--grey {
+    font-size: 1.2rem;
+    min-width: 8rem;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #6c757d;
+    box-shadow: 0 5px #495057;
+    margin: 1rem;
+    margin-left: 30rem;
+  }
+  .css-button-3d--grey:hover {
+    box-shadow: 0 3px #495057;
+    top: 1px;
+  }
+  .css-button-3d--grey:active {
+    box-shadow: 0 0 #495057;
+    top: 5px;
+  }
+
+.big{
+    font-size: 3rem; /* Adjust font size for desired size */
+    font-weight: bold; /* Makes the text bold */
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Top edge of the page */
+    margin-left: 9rem; /* Left edge of the page */
+    padding: 1rem; 
+}

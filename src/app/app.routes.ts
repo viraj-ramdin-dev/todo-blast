@@ -1,9 +1,13 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+import { SignupComponent } from './signup/signup.component';
+import { TodoAppComponent } from './todo-app/todo-app.component';
 
 export const routes: Routes = [
-  { path: 'all', component: AppComponent },
-  { path: 'active', component: AppComponent },
-  { path: 'completed', component: AppComponent },
-  { path: '', redirectTo: '/all', pathMatch: 'full' },
+
+  { path: '', redirectTo: '/signup', pathMatch: 'full' }, // Redirect root to todo
+  { path: 'todo', component: TodoAppComponent },
+  { path: 'todo/active', component: TodoAppComponent },
+  { path: 'todo/completed', component: TodoAppComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: '**', redirectTo: '/signup', pathMatch: 'full' },
 ];
