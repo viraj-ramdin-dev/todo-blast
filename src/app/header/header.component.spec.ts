@@ -30,10 +30,7 @@ describe('HeaderComponent', () => {
   });
 
   it('should add a todo', () => {
-    // Set up test data
     const title = 'Test Todo';
-
-    // Trigger addTodo method
     component.title = title;
     component.addTodo();
 
@@ -42,10 +39,7 @@ describe('HeaderComponent', () => {
   });
 
   it('should not add a todo if title is empty', () => {
-    // Set up test data
     const title = '';
-
-    // Trigger addTodo method
     component.title = title;
     component.addTodo();
 

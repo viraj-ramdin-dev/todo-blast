@@ -1,6 +1,6 @@
 .css-button-3d--grey {
     font-size: 1.2rem;
-    min-width: 8rem;
+    min-width: 12rem;
     height: 40px;
     color: #fff;
     padding: 5px 10px;
@@ -33,4 +33,18 @@
     top: 0; /* Top edge of the page */
     margin-left: 9rem; /* Left edge of the page */
     padding: 1rem; 
+}
+
+.userStyle {
+  color: rgb(71, 45, 95);
+  font-size: 1.3rem; /* Adjust font size for desired size */
+  position: absolute;
+  top: 0;
+  margin-top: 1rem;
+  margin-left: -20rem;
+  padding: 0.4rem;
+  border-radius: 10px; 
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), 
+              -5px -5px 5px rgba(255, 255, 255, 0.5); 
+   background-color: rgb(204, 229, 255);  
 }
